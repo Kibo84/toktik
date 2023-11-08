@@ -1,6 +1,6 @@
-import 'package:toktik/domain/datasources/video_post_datasource.dart';
-import 'package:toktik/domain/entities/video_post.dart';
-import 'package:toktik/domain/repositories/video_post_repository.dart';
+import '../../domain/datasources/video_post_datasource.dart';
+import '../../domain/entities/video_post.dart';
+import '../../domain/repositories/video_post_repository.dart';
 
 class VideoPostsRepositoryImpl implements VideoPostRepository {
   final VideoPostDatasource videoPostDatasource;
